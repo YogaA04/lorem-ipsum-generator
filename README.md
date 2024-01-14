@@ -1,38 +1,24 @@
-# Welcome to Remix!
+# Lorem Ipsum Generator
 
-- [Remix Docs](https://remix.run/docs)
-
-## Development
-
-From your terminal:
-
-```sh
+## Introduction
+The application I built with Remix js, uses the lorem-ipsum library and uses Tailwindcss. Inspired from the repository:
+```
+https://github.com/florinpop17/app-ideas/
+```
+## Installation
+```
+git clone https://github.com/YogaA04/lorem-ipsum-generator.git
+```
+```
+cd lorem-ipsum-generator
+```
+```
+npm install
+```
+```
 npm run dev
 ```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+## Structure and Components
+- `root.jsx`: In the root file I just added a global.css link, and created a simple navbar
+- `utilities/libs/generateLorem.js`: Simple library for generating lorem-ipsum text
+- `routes/_index.jsx`: the main page that almost everything is executed here. Sets up the HTML structure and includes the generateLorem.js library and main script.
