@@ -1,10 +1,7 @@
 # Lorem Ipsum Generator
 
 ## Introduction
-The application I built with Remix js, uses the lorem-ipsum library and uses Tailwindcss. Inspired from the repository:
-```
-https://github.com/florinpop17/app-ideas/
-```
+The application I built with Remix js, uses the lorem-ipsum library and uses Tailwindcss. Inspired from the repository: (https://github.com/florinpop17/app-ideas/)
 ## Installation
 ```
 git clone https://github.com/YogaA04/lorem-ipsum-generator.git
